@@ -13,7 +13,7 @@ public class ProdutoService implements IBaseService<ProdutoEntity>{
 
     @Autowired
     private ProdutoRepository repository;
-
+    
     @Override
     @Transactional
     public List<ProdutoEntity> findAll() {
@@ -37,5 +37,5 @@ public class ProdutoService implements IBaseService<ProdutoEntity>{
     public void delete(Integer id) throws ResourceNotFoundException {
         repository.deleteById(id);
     }
-
+    
 }
