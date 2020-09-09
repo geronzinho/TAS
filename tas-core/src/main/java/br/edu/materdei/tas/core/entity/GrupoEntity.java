@@ -9,7 +9,7 @@ import javax.persistence.Table;
 
 /**
  * 
- * @author libajunior
+ * @author Alexandre
  */
 @Entity
 @Table(name = "grupo")
